@@ -33,7 +33,7 @@
 ## 📂 Project Structure
 
 - **`/app`**: Complete source code for the Flutter mobile application.
-- **`/firmware`**: Arduino/ code for the Arduino Nano RP2040 sensor node.
+- **`/firmware`**: Arduino code for the Arduino Nano RP2040 sensor node.
 
 ## 🚀 Getting Started
 
