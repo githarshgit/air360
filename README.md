@@ -4,14 +4,14 @@ A complete Air Quality Monitoring solution.
 
 ## Screenshots
 
-| Dashboard | Sensor Chart | About Page |
-|:---:|:---:|:---:|
-| <img src="Screenshots/Screenshot_1.png" width="250"> | <img src="Screenshots/Screenshot_2.png" width="250"> | <img src="Screenshots/Screenshot_3.png" width="250"> |
+| Dashboard | Sensor Graph |
+|:---:|:---:|
+| <img src="Screenshots/Screenshot_1.png" width="250"> | <img src="Screenshots/Screenshot_2.png" width="250"> |
 
 ## Project Structure
 
 - **`/app`**: Flutter mobile application.
-- **`/firmware`**: Arduino/ESP8266 code for the sensor node.
+- **`/firmware`**: Arduino Nano RP2040 code.
 
 ## Getting Started
 
@@ -22,5 +22,5 @@ A complete Air Quality Monitoring solution.
 
 ### Firmware
 1. Open `/firmware/air360_firmware_v2.ino` in Arduino IDE.
-2. Install required libraries (ESP8266WiFi, ArduinoJson, DHT).
-3. Upload to your ESP8266 board.
+2. Install required libraries.
+3. Upload to your Arduino Nano RP2040 board.
