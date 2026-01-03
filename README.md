@@ -6,7 +6,7 @@
 
 | Dashboard | Sensor Graph |
 |:---:|:---:|
-| <img src="Screenshots/Screenshot_1.png" width="250"> | <img src="Screenshots/Screenshot_2.png" width="250">  <img src="Screenshots/Screenshot_3.png" width="250"> |
+| <img src="Screenshots/Screenshot_1.png" width="250"> | <img src="Screenshots/Screenshot_2.png" width="250"> <img src="Screenshots/Screenshot_3.png" width="250"> |
 
 ## ✨ Features
 
@@ -26,8 +26,8 @@
 
 ## 🛠️ Tech Stack
 
-- **Mobile App**: Flutter (Dart), Fl_Chart, HTTP, Provider.
-- **Hardware**: Arduino Nano RP2040 Connect, Arduino IDE (C++).
+- **Mobile App**: Flutter.
+- **Hardware**: Arduino Nano RP2040 Connect, Arduino IDE.
 - **Connectivity**: HTTP / Wi-Fi (REST API).
 
 ## 📂 Project Structure
@@ -66,14 +66,15 @@
 2. **Install Libraries**:
    - `WiFiNINA` (for Nano RP2040 Connect)
    - `DHT sensor library`
+   - `SPI`
+   - `SD`
+   - `DHT`
+   - `math`
 3. **Configure**: Update `SSID` and `PASSWORD` in the code to set up the Access Point.
 4. **Upload**: Connect your Arduino Nano RP2040 and upload the code.
 
-## 🤝 Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
 
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+5. Will Update PCB Blueprint soon.  
 
 ---
 *Developed by Harsh Kumar | Powered by Flutter & Arduino*
