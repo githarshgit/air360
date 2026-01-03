@@ -4,9 +4,9 @@
 
 ## 📸 Screenshots
 
-| Dashboard | Sensor Chart | About Page |
-|:---:|:---:|:---:|
-| <img src="Screenshots/Screenshot_1.png" width="250"> | <img src="Screenshots/Screenshot_2.png" width="250"> | <img src="Screenshots/Screenshot_3.png" width="250"> |
+| Dashboard | Sensor Graph |
+|:---:|:---:|
+| <img src="Screenshots/Screenshot_1.png" width="250"> | <img src="Screenshots/Screenshot_2.png" width="250">  <img src="Screenshots/Screenshot_3.png" width="250"> |
 
 ## ✨ Features
 
@@ -21,19 +21,19 @@
   - **Temperature & Humidity** (DHT11)
 - **Interactive Charts**: View historical data trends with touch-interactive graphs.
 - **Premium UI**: Modern, dark-themed glassmorphism design.
-- **Offline Capable**: Works over local Wi-Fi (ESP8266 AP Mode).
+- **Offline Capable**: Works over local Wi-Fi (Access Point Mode).
 - **SD Card Logging**: Backs up data to an SD card on the device.
 
 ## 🛠️ Tech Stack
 
 - **Mobile App**: Flutter (Dart), Fl_Chart, HTTP, Provider.
-- **Hardware**: ESP8266 / ESP32, Arduino IDE (C++).
-- **connection**: HTTP / Wi-Fi (REST API).
+- **Hardware**: Arduino Nano RP2040 Connect, Arduino IDE (C++).
+- **Connectivity**: HTTP / Wi-Fi (REST API).
 
 ## 📂 Project Structure
 
 - **`/app`**: Complete source code for the Flutter mobile application.
-- **`/firmware`**: Arduino/C++ code for the ESP8266/ESP32 sensor node.
+- **`/firmware`**: Arduino/C++ code for the Arduino Nano RP2040 sensor node.
 
 ## 🚀 Getting Started
 
@@ -59,11 +59,10 @@
 ### 🔌 Firmware (Hardware)
 1. **Open Firmware**: Open `/firmware/air360_firmware_v2.ino` in the Arduino IDE.
 2. **Install Libraries**:
-   - `ESP8266WiFi` (or `WiFi` for ESP32)
-   - `ArduinoJson`
+   - `WiFiNINA` (for Nano RP2040 Connect)
    - `DHT sensor library`
-3. **Configure**: Update `SSID_NAME` and `SSID_PASS` if you want to change the Access Point credentials.
-4. **Upload**: Connect your board and upload the code.
+3. **Configure**: Update `SSID` and `PASSWORD` in the code to set up the Access Point.
+4. **Upload**: Connect your Arduino Nano RP2040 and upload the code.
 
 ## 🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
