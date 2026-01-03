@@ -1,6 +1,6 @@
-# air360
+# Air360
 
-A new Flutter project.
+A Flutter application for monitoring air quality sensors.
 
 ## Getting Started
 
