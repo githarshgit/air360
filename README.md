@@ -26,14 +26,19 @@
 
 ## 🛠️ Tech Stack
 
-- **Mobile App**: Flutter .
-- **Hardware**: Arduino Nano RP2040 Connect, Arduino IDE.
+- **Mobile App**: Flutter (Dart), Fl_Chart, HTTP, Provider.
+- **Hardware**: Arduino Nano RP2040 Connect, Arduino IDE (C++).
 - **Connectivity**: HTTP / Wi-Fi (REST API).
 
 ## 📂 Project Structure
 
 - **`/app`**: Complete source code for the Flutter mobile application.
-- **`/firmware`**: Arduino code for the Arduino Nano RP2040 sensor node.
+- **`/firmware`**: Arduino/C++ code for the Arduino Nano RP2040 sensor node.
+- **`/releases`**: Pre-built APK files for easy installation.
+
+## 📥 Download App
+
+**[Download Latest APK (v1.0)](releases/Air360_v1.0.apk)**
 
 ## 🚀 Getting Started
 
