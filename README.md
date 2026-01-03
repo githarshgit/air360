@@ -26,14 +26,14 @@
 
 ## 🛠️ Tech Stack
 
-- **Mobile App**: Flutter (Dart), Fl_Chart, HTTP, Provider.
-- **Hardware**: Arduino Nano RP2040 Connect, Arduino IDE (C++).
+- **Mobile App**: Flutter .
+- **Hardware**: Arduino Nano RP2040 Connect, Arduino IDE.
 - **Connectivity**: HTTP / Wi-Fi (REST API).
 
 ## 📂 Project Structure
 
 - **`/app`**: Complete source code for the Flutter mobile application.
-- **`/firmware`**: Arduino/C++ code for the Arduino Nano RP2040 sensor node.
+- **`/firmware`**: Arduino/ code for the Arduino Nano RP2040 sensor node.
 
 ## 🚀 Getting Started
 
